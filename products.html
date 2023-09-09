@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is an ecommerce project for making mst surnaly akter express"
+    />
+    <title>Ecommerce Project</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar starts here  -->
+    <i class="fas fa-bars fa-2x" id="mune_icon"></i>
+    <nav id="mune" class="hidden">
+      <ul class="nav_upper flex-space-around">
+        <li class="nav_list">
+          <a href="/index.html" class="nav_link">Home</a>
+        </li>
+        <li class="nav_list">
+          <a href="/register.html" class="nav_link">Register</a>
+        </li>
+        <li class="nav_list">
+          <a href="/login.html" class="nav_link">Login</a>
+        </li>
+        <li class="nav_list">
+          <a href="/index.html" class="nav_link">Logout</a>
+        </li>
+        <li class="nav_list">
+          <a href="/contact.html" class="nav_link">Contact</a>
+        </li>
+        <li class="nav_list">
+          <a href="/profile.html" class="nav_link">
+            <img
+              src="/images/my.png"
+              alt="profile_image"
+              class="profile_icon"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav_lower flex-space-around">
+        <li class="nav_list">
+          <a href="/index.html" class="nav_brand nav_link">
+            Mst Surnaly Akter</a
+          >
+        </li>
+        <li class="nav_list">
+          <a href="/card.html" class="nav_link">
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+            Cart 2 products -$124.40
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <main class="flex-center">
+      <section class="main_content">
+        <section class="product_details flex-center">
+          <section class="product_details_left flex-center">
+            <img src="./images/product1.jpg" alt="product one" />
+          </section>
+          <section class="product_details_right">
+            <h3 class="product_name">Sony V-4 Headphone</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="product_description">
+              <strong>Description: </strong>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              quo saepe, nihil unde, doloribus recusandae quidem repellat
+              repudiandae eaque voluptate aspernatur sequi dolore! Dolore, ad?
+            </p>
+            <p class="product_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              quo saepe, nihil unde, doloribus recusandae quidem repellat
+              repudiandae eaque voluptate aspernatur sequi dolore! Dolore, ad?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              voluptatum?
+            </p>
+            <p class="product_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              quo saepe, nihil unde, doloribus recusandae quidem repellat
+              repudiandae eaque voluptate aspernatur sequi dolore! Dolore, ad?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              voluptatum?
+            </p>
+            <h4 class="product_category">Category: Headphone</h4>
+            <h4 class="product_price">Price: $225.99</h4>
+            <p class="product_rating">Rating: 4.5/5</p>
+            <button class="btn product_buttion">Add To Cart</button>
+            <button class="btn product_buttion">Back To Shopping</button>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+      <section class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input
+          type="email"
+          name="subscribe"
+          id="subscribe"
+          class="footer_input"
+          placeholder="Enter Your Email Addresh"
+        />
+        <button class="btn btn-subscribe">Subscribe</button>
+      </section>
+      <section>
+        <p>&copy; Copyright 2023 Mst Surnaly Akter. All rights reserved</p>
+      </section>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="./script/index.js"></script>
+  </body>
+</html>
